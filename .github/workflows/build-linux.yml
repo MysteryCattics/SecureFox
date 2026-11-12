@@ -47,7 +47,7 @@ jobs:
 
       - name: Bootstrap build dependencies
         working-directory: firefox-source
-        run: ./mach bootstrap --application-choice browser --no-interactive
+        run: ./mach bootstrap --application-choice browser
 
       - name: Build Firefox with SecureFox defaults
         working-directory: firefox-source
